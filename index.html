@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Фрилансер Влада - Frontend-разработки</title>
+    <link rel="icon" href="/images/icon.svg" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="bg-decor" aria-hidden="true">
+      <div class="bg-decor__orb bg-decor__orb--1"></div>
+      <div class="bg-decor__orb bg-decor__orb--2"></div>
+      <div class="bg-decor__orb bg-decor__orb--3"></div>
+    </div>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img src="images/main-photo_2.jpg" class="header__logo-img" />
+          </div>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a class="header__link" href="/#home"> Главная </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a class="header__link" href="/#about">Обо мне </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a class="header__link" href="/#projects"> Проекты </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a class="header__link" href="/#cost"> Прайс </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a class="header__link" href="/#contact"> Контакты </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img src="images/ham-menu.svg" class="header__main-ham-menu" />
+            <img
+              src="images/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="/#home"> Главная </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="/#about"> Обо мне </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="/#projects"> Проекты </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="/#cost"> Прайс </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="/#contact"> Контакты </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero" id="home">
+      <div class="home-hero__inner main-container">
+        <div class="home-hero__content">
+          <p class="home-hero__label">Профиль</p>
+          <h1 class="home-hero__title">
+            Привет, меня зовут
+            <span class="home-hero__title-accent">Влада</span>
+          </h1>
+          <div class="home-hero__info">
+            <p class="home-hero__desc">
+              Я создаю удобные, стильные и результативные сайты, которые
+              работают на ваш бизнес
+            </p>
+          </div>
+          <div class="home-hero__actions">
+            <a href="/#projects" class="btn btn--bg">Проекты</a>
+            <a href="/#contact" class="btn btn--theme-inv">Контакты</a>
+          </div>
+        </div>
+        <div class="home-hero__photo-wrap">
+          <div class="home-hero__photo-frame">
+            <img
+              src="images/main-photo_1.jpg"
+              class="home-hero__photo"
+              width="571"
+              height="1024"
+              onerror="this.classList.add('home-hero__photo--missing')"
+            />
+          </div>
+          <div class="home-hero__photo-accent" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="home-hero__scroll">
+        <span class="home-hero__scroll-text">Листай вниз :)</span>
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Обо мне</span>
+          <span class="heading-sec__sub">
+            Я специализируюсь на создании адаптивных, современных и
+            высокоэффективных сайтов.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Вот что я могу предложить:</h3>
+
+            <div class="about__content-details">
+              <details>
+                <summary class="about__details-title">
+                  WordPress и Tilda
+                </summary>
+                <ul class="about__content-details-ul">
+                  <li>Разработка сайтов с нуля.</li>
+                  <li>
+                    Оптимизация, исправление ошибок и ускорение работы сайта.
+                  </li>
+                  <li>Установка на хостинг.</li>
+                </ul>
+              </details>
+              <details>
+                <summary class="about__details-title">
+                  HTML / CSS / SCSS / JavaScript
+                </summary>
+                <ul class="about__content-details-ul">
+                  <li>Верстка сайтов.</li>
+                  <li>Доработка и исправление существующих страниц.</li>
+                  <li>Адаптация под мобильные устройства.</li>
+                </ul>
+              </details>
+              <details>
+                <summary class="about__details-title">
+                  Дополнительные услуги
+                </summary>
+                <ul class="about__content-details-ul">
+                  <li>
+                    Помощь в интеграции плагинов, настройка CMS под ваши нужды.
+                  </li>
+                  <li>Решение задач, связанных с производительностью.</li>
+                </ul>
+              </details>
+            </div>
+            <p class="about__content-details-para">
+              Не нашли нужную услугу? Напишите, и мы решим все ваши задачи
+              вместе!
+            </p>
+            <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Написать</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Навыки</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">SCSS</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">Git/Github</div>
+              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Tilda</div>
+              <div class="skills__skill">Taplink</div>
+              <div class="skills__skill">Верстка сайта по макету</div>
+              <div class="skills__skill">Woocommerce</div>
+              <div class="skills__skill">Доработка сайта на Wordpress</div>
+              <div class="skills__skill">ACF на Wordpress</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">Elementor Wordpress</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Примеры работ</span>
+          <span class="heading-sec__sub">
+            Здесь представлены работы, демонстрирующие мой опыт и навыки в
+            области веб-разработки ( • ᴗ - ) ✧
+          </span>
+        </h2>
+
+        <div class="projects__slider-wrap">
+          <div class="swiper projects-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-3/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-3/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-3/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Лендинг</h3>
+                    <p class="project-card__desc">
+                      Сборка на WordPress · Elementor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <!-- Ноутбук -->
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-2/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-2/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-2/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Интернет-магазин</h3>
+                    <p class="project-card__desc">
+                      Разработка на WordPress · WooCommerce
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="project-card project-card--demo"
+                  href="https://vladas20.github.io/wake_bake/"
+                >
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <!-- Ноутбук -->
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-1/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-1/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-1/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Лендинг</h3>
+                    <p class="project-card__desc">
+                      Вёрстка по макету · HTML · CSS · JavaScript
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <!-- Ноутбук -->
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-5/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-5/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-5/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Лендинг</h3>
+                    <p class="project-card__desc">Tilda · Zero Block</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <!-- Ноутбук -->
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-4/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-4/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-4/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Одностраничный сайт</h3>
+                    <p class="project-card__desc">Taplink</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="project-card project-card--demo"
+                  href="https://vladas20.github.io/hazze/"
+                >
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <!-- Ноутбук -->
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-6/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-6/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-6/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Многостраничный сайт</h3>
+                    <p class="project-card__desc">Сборка на WordPress · ACF</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <!-- Ноутбук -->
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-9/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-9/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-9/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Лендинг</h3>
+                    <p class="project-card__desc">
+                      Адаптивная вёрстка · HTML · SCSS · JavaScript
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <!-- Ноутбук -->
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-8/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-8/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-8/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Многостраничный сайт</h3>
+                    <p class="project-card__desc">
+                      Дизайн+вёрстка · HTML · CSS · JavaScript
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="project-card project-card--demo"
+                  href="https://vladas20.github.io/coca/"
+                >
+                  <div class="project-card__img-wrap">
+                    <div class="project-devices">
+                      <!-- Ноутбук -->
+                      <div class="project-device project-device--laptop">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-7/desktop.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/laptop.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Планшет -->
+                      <div class="project-device project-device--tablet">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-7/tablet.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/tablet.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <!-- Телефон -->
+                      <div class="project-device project-device--mobile">
+                        <div class="project-device__screen">
+                          <img
+                            src="/images/projects/project-7/mobile.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <img
+                          class="project-device__frame"
+                          src="/images/devices/mobile.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-card__body">
+                    <h3 class="project-card__title">Корпоративный сайт</h3>
+                    <p class="project-card__desc">
+                      Адаптивная вёрстка · HTML · SCSS · JavaScript
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="projects__controls">
+            <button
+              type="button"
+              class="projects-swiper__prev"
+              aria-label="Предыдущий проект"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M15 6l-6 6 6 6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <div class="projects-swiper__pagination"></div>
+            <button
+              type="button"
+              class="projects-swiper__next"
+              aria-label="Следующий проект"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M9 6l6 6-6 6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cost" class="sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Прайс</span>
+          <span class="heading-sec__sub">
+            Вы можете ознакомиться с моими ключевыми услугами и выбрать то, что
+            подходит Вам больше всего.
+          </span>
+        </h2>
+        <ul class="cost__plans">
+          <li class="cost__item">
+            <div class="cost__plans-icon">
+              <svg
+                width="20"
+                height="18"
+                viewBox="0 0 20 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.31802 2.31802C0.56066 4.07538 0.56066 6.92462 2.31802 8.68198L10.0001 16.364L17.682 8.68198C19.4393 6.92462 19.4393 4.07538 17.682 2.31802C15.9246 0.56066 13.0754 0.56066 11.318 2.31802L10.0001 3.63609L8.68198 2.31802C6.92462 0.56066 4.07538 0.56066 2.31802 2.31802Z"
+                  stroke="#844835"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="cost__plans-title">Создание сайта на конструкторе</h3>
+            <p class="cost__plans-descr">
+              Создам сайт на Tilda, Elementor или Taplink под ключ
+            </p>
+            <div class="cost__plans-price">
+              <span data-price="starter">₽8000</span>
+              <span class="cost__plans-price-text">/5 секций</span>
+            </div>
+            <h4 class="cost__plans-list-title cost__plans-list-title--popular">
+              Что входит в услугу:
+            </h4>
+            <ul class="cost__plans-list">
+              <li class="cost__plans-item cost__plans-item--popular">
+                Сборка сайта на Tilda, Elementor или Taplink
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Настройка и стилизация блоков
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Адаптация под ПК, планшет и мобильные
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Настройка кнопок, ссылок и форм
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Базовая SEO-настройка
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Подключение домена
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Выполенение работы 1-3 дня
+              </li>
+            </ul>
+          </li>
+          <li class="cost__item cost__item--popular">
+            <div class="cost__plans-icon cost__plans-icon--popular">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 10V3L4 14H11L11 21L20 10L13 10Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="cost__plans-title cost__plans-title--popular">
+              Адаптивная верстка сайта по дизайн макету
+            </h3>
+            <p class="cost__plans-descr">
+              Точно перенесу макет в чистый код с адаптацией под все устройства
+            </p>
+            <div class="cost__plans-price cost__plans-price--popular">
+              <span data-price="popular">₽10000 </span>
+              <span class="cost__plans-price-text">/5 секций</span>
+            </div>
+            <h4 class="cost__plans-list-title cost__plans-list-title--popular">
+              Что входит в услугу:
+            </h4>
+            <ul class="cost__plans-list">
+              <li class="cost__plans-item cost__plans-item--popular">
+                Вёрстка по макету Figma/PSD/Pixso на HTML и CSS
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Интерактивные элементы на JavaScript
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Анимации и hover-эффекты
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Адаптация под ПК, планшет и мобильные устройства
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Кроссбраузерная проверка
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Передача готовых файлов проекта
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Выполенение работы 1-3 дня
+              </li>
+            </ul>
+          </li>
+          <li class="cost__item">
+            <div class="cost__plans-icon">
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 22 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 6L2.304 7.043C2.75828 7.40635 3.28636 7.66624 3.85139 7.80456C4.41643 7.94287 5.00484 7.95628 5.57559 7.84384C6.14634 7.7314 6.6857 7.49583 7.15606 7.15355C7.62642 6.81126 8.01647 6.3705 8.299 5.862L11 1L13.701 5.862C13.9836 6.37042 14.3737 6.81109 14.8441 7.15328C15.3145 7.49546 15.8539 7.73093 16.4247 7.84327C16.9954 7.95561 17.5838 7.94212 18.1488 7.80373C18.7138 7.66534 19.2418 7.40539 19.696 7.042L21 6L19.246 14.77C19.1694 15.1527 19.0065 15.5129 18.7696 15.8231C18.5327 16.1333 18.2281 16.3854 17.879 16.56C15.7432 17.628 13.388 18.184 11 18.184C8.61202 18.184 6.25684 17.628 4.121 16.56C3.77193 16.3854 3.46733 16.1333 3.23043 15.8231C2.99353 15.5129 2.83058 15.1527 2.754 14.77L1 6Z"
+                  stroke="#844835"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M7 13C9.596 14.333 12.404 14.333 15 13"
+                  stroke="#844835"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="cost__plans-title">
+              Натяжка вёрстки на кастомную тему WordPress
+            </h3>
+            <p class="cost__plans-descr">
+              Перенесу готовую верстку на WordPress и превращу в полноценный
+              сайт с удобной админ-панелью
+            </p>
+            <div class="cost__plans-price">
+              <span data-price="enterprise">₽15000</span
+              ><span class="cost__plans-price-text">/3 страницы</span>
+            </div>
+            <h4 class="cost__plans-list-title cost__plans-list-title--popular">
+              Что входит в услугу:
+            </h4>
+            <ul class="cost__plans-list">
+              <li class="cost__plans-item cost__plans-item--popular">
+                Создание кастомной темы WordPress
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Перенос готовой HTML-вёрстки
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Динамический вывод контента
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Настройка страниц и записей
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Подключение меню
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Настройка шапки и подвала
+              </li>
+              <li class="cost__plans-item cost__plans-item--popular">
+                Выполенение работы 1-3 дня
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad">
+      <div class="main-container">
+        <div class="contact__cta">
+          <h2 class="contact__title">Есть идея для проекта?</h2>
+          <p class="contact__text">
+            Напишите мне в Telegram — обсудим задачу, сроки и формат работы.
+            Буду рада новым заказам и коллаборациям.
+          </p>
+          <a
+            href="https://t.me/@vladaskladneva"
+            class="btn btn--bg contact__btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Написать в Telegram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
